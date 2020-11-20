@@ -1,0 +1,7 @@
+:root {
+    --theme-color: #ff5155 !important;
+    --title__size: 60px !important;
+    color: var(--theme-color) !important;
+}
+
+

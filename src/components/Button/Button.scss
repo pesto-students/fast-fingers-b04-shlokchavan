@@ -1,0 +1,30 @@
+@import '../../styles/variables.css';
+
+.button {
+    &__element {
+        background: transparent;
+        height: 60px;
+        font-size: 36px;
+        font-weight: 500;
+        text-transform: uppercase;
+        min-width: 300px;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        color: var(--theme-color);
+        padding: 15px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:focus {
+            outline: none;
+            border: none;
+        }
+        &:hover  {
+            box-shadow: 2px 2px 2px 2px white;
+            border-radius: 10px;
+            transition: linear 300ms;
+        }
+    }
+
+}

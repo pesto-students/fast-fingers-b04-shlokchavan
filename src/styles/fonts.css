@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Gotham;
+    src: local(Gotham-Medium),
+      url(/path/to/Gotham-Medium.woff2) format("woff2"),
+      url(/path/to/Gotham-Medium.woff) format("woff"),
+      url(/path/to/Gotham-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family: LaserCorpsGradient;
+    src: local(LaserCorpsGradient-Regular),
+      /* url(/path/to/LaserCorpsGradient-Regular.woff2) format("woff2"),
+      url(/path/to/LaserCorpsGradient-Regular.woff) format("woff"), */
+      /* url(/path/to/LaserCorpsGradient-Regular.ttf) format("truetype"); */
+      url(../assets/fonts/Laser_Corps/lasercorpsgrad.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  .Text-Style {
+    font-family: LaserCorpsGradient;
+    font-size: 81px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff5155;
+  }
+  .Text-Style-2 {
+    font-family: Gotham;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    
+    letter-spacing: normal;
+    text-align: left;
+    line-height: 1.19;
+    color: #ff5155;
+  }

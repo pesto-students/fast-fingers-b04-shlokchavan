@@ -1,0 +1,19 @@
+.input {
+  &__field {
+    border-radius: 10px;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+    background-color: #97a1a3;
+    outline: none;
+    border: none;
+    // min-width: 450px;
+    height: 60px;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0 20px;
+    color: #1d3f49;
+    text-transform: uppercase;
+    &::placeholder {
+      color: #1d3f49;
+    }
+  }
+}

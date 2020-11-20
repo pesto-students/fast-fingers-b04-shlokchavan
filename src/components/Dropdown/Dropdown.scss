@@ -1,0 +1,33 @@
+.dropdown {
+  margin-left: 25px;
+  &__arrow {
+    position: relative;
+    right: 45px;
+    bottom: 5px;
+  }
+  &__select {
+    border-radius: 10px;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    min-width: 310px;
+    height: 60px;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0 20px;
+    color: #97a1a3;
+    border: 2px solid #97a1a3;
+    text-transform: uppercase;
+  }
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0px;
+  text-overflow: "";
+}
+
+.btn-new {
+  background-color: #2A3F54;
+}

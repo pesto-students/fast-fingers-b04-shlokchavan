@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import './styles/variables.css';
+.app {
+    background-image: linear-gradient( 180deg, rgba( 3, 34, 40, 1), rgba( 6, 60, 71, 0.8)), url('./assets/images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__logo {
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__title {
+    font-size: var(--title__size);
+    font-family: LaserCorpsGradient;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--theme-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__subTitle {
+    display: flex;
+    flex-direction: row;
+    font-family: Gotham;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 1.5rem;
+    color: var(--theme-color);
 }
 
-.App-link {
-  color: #61dafb;
+.app__subTitle:before, .app__subTitle:after {
+    content: "_______";
+    flex: 1 1;
+    border-bottom: 0px solid var(--theme-color);
+    margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__subTitle:before {
+    margin-right: 10px
+}
+
+.app__subTitle:after {
+    margin-left: 10px
 }
